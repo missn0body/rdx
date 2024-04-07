@@ -1,0 +1,19 @@
+This is more of a breath of fresh air since my last projects
+were complex C++ projects to make future projects for me easier,
+so I've been itching to make a simple C terminal app again.
+
+This program should essentially do what it says, as I imagine it
+right now, convert a decimal to an arbitrary radix. In the future
+I might change it so that it can convert an arbitrary radix to
+arbitrary radix, but as for now, I will keep it simple.
+
+My main method of developing applications currently is to do so
+iteratively, make a baseline and then occasionally keeping at it
+until it becomes something remarkable or until I can't keep etching
+at it anymore. Some simple projects are going to be forever simple,
+and it's bad practice to have a do-it-all program.
+
+So that's most of what I want right now. 
+The above is subject to change.
+
+- anson <thesearethethingswesaw@gmail.com> 
