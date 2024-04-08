@@ -15,7 +15,7 @@ $(BIN): $(BIN).o
 	$(CC) $(CFLAGS) $(BIN).o -o $@
 
 %.o: %.c
-	$(CC) $(CCFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 
 # Distribution ---------------------------------
