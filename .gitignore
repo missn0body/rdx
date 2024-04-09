@@ -35,3 +35,9 @@
 *.tar.gz
 *.tar
 *.gz
+
+# docopt scripts
+*.py
+
+# Notes
+TODO

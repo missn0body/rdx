@@ -1,0 +1,38 @@
+.TH rdx 7 "April 2024" "Version 2.0.0"
+.SH NAME
+rdx \- convert decimal to arbitrary RaDiX
+.SH SYNOPSIS
+.B rdx
+.I <number>
+.I <base>
+.SH DESCRIPTION
+.B rdx
+prints a converted number to stdout, that being the given
+input, but represented in a different radix or base, as determined
+by
+.B <base>
+.PP
+In parsing of the arguments,
+.B rdx
+will always assume that the first number given is the number to convert,
+while the second number given is the base.
+.B rdx
+does not accept flags or arguments other than the
+.B "--help"
+flag, and will raise a warning when ignoring any other input.
+.PP
+As of 1.0.0,
+.B rdx
+will not accept an input of any other radix other than base-10, or decimal.
+.PP
+.B rdx
+is invokable through the terminal.
+.SH OPTIONS
+.IP "<number>"
+The decimal number to be transformed
+.IP "<base>"
+The given base for the output
+.SH BUGS
+No known bugs
+.SH AUTHORS
+Written by anson <thesearethethingswesaw@gmail.com>
